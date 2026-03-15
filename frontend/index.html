@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Property Diagnostic Report</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Property Diagnostic Report Generator</h1>
+<h2>Upload inspection PDFs to generate a detailed diagnostic report</h2>
+
+<div class="upload-row">
+
+<button id="textBtn">Insert Text PDF</button>
+<input type="file" id="textPdf" accept=".pdf">
+
+<button id="imageBtn">Insert Image PDF</button>
+<input type="file" id="imagePdf" accept=".pdf">
+
+</div>
+
+<div class="generate-container">
+<button id="generateBtn">Generate Report</button>
+</div>
+
+<div id="reportOutput"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

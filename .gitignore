@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (API keys etc.)
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Uploaded PDFs
+uploaded_pdfs/
+
+# Extracted images
+extracted_images/
+
+# Database / vector DB local files (if any)
+*.db
+*.sqlite
+
+# Node modules (if using npm frontend)
+node_modules/
+
+# Temporary files
+temp/
+tmp/
